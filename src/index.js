@@ -21,4 +21,8 @@ const element = <App/>;
 ReactDOM.render(element, document.getElementById('app'));
 
 
+<<<<<<< HEAD
 console.log(5);
+=======
+console.log(4);
+>>>>>>> 2
