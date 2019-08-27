@@ -11,7 +11,7 @@ const rules = [{
                 loader: 'postcss-loader',
                 options: {
                     plugins: [
-                        'autoprefixer',
+                        require('autoprefixer'),
                     ],
                 },
             },

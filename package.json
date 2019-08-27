@@ -20,12 +20,11 @@
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/plugin-transform-runtime": "^7.5.0",
-    "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
     "@babel/runtime": "^7.5.4",
-    "autoprefixer": "^9.5.0",
+    "autoprefixer": "^9.6.1",
     "babel-loader": "^8.0.5",
     "babel-plugin-lodash": "^3.3.4",
     "clean-webpack-plugin": "^2.0.1",
@@ -65,5 +64,8 @@
     "iOS 7",
     "last 3 iOS versions"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "core-js": "^3.1.4",
+    "prop-types": "^15.7.2"
+  }
 }

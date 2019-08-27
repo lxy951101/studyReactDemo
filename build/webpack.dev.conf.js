@@ -18,7 +18,7 @@ const webpackConfigDev = {
 		contentBase: path.join(__dirname, "../src"),
 		publicPath:'/',
 		host: "127.0.0.1",
-		port: "3000",
+		port: "3001",
 		overlay: true, // 浏览器页面上显示错误
 		open: true, // 开启浏览器
 		hot: true // 开启热更新
