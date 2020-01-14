@@ -31,6 +31,9 @@ const rules = [{
                     [
                         "@babel/plugin-transform-runtime",
                     ],
+                    [
+                        'babel-plugin-syntax-dynamic-import',
+                    ],
                     'lodash',
                 ],
             },

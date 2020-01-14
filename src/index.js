@@ -4,12 +4,13 @@ import ReactDOM from 'react-dom';
 // import { LikeButton } from './components/LikeButton.tsx';
 // import { UserList } from './components/UserList.tsx';
 // import './style/comment.css';
-import { CommentApp } from './components/CommentApp.tsx';
+// import { CommentApp } from './components/CommentApp.tsx';
 // import { AutoFocusInput } from './components/AutoFocusInput.tsx';
 // import { Card } from './components/Card.tsx';
 // import InputWithUserName from './components/InputWithUserName.tsx';
 // import { Index } from './components/Index.tsx';
 // import { Counter } from './components/Counter.tsx';
+import { Calendar } from './components/Calendar.tsx';
 
 // function App() {
 //     const [open, setOpen] = useState(true);
@@ -38,8 +39,11 @@ import { CommentApp } from './components/CommentApp.tsx';
 //   订阅：<input />
 // </Card>;
 
-const element = <CommentApp />;
+// const element = <CommentApp />;
 // const element = <InputWithUserName />
 // const element = <Index />;
 // const element = <Counter />;
+
+const element = <Calendar />;
+
 ReactDOM.render(element, document.getElementById('app'));
