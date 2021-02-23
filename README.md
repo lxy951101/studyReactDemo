@@ -4,5 +4,5 @@
 
 主要工作：
 
-1.构建React的打包程序
-2.用react hooks书写react代码
+1. 构建React的打包程序
+2. 用react hooks书写react代码
